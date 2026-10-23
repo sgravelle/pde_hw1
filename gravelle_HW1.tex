@@ -26,6 +26,16 @@ My solution to the Stokes equations in 2 dimensions, with the given boundary con
 \includegraphics{sol_plot.pdf}
 \end{center}
 
+\newpage
+\noindent \textbf{Problem 2: Error Analysis}
+
+Plotting the relative error of numerical solutions on an $n\times n$ grid gives the following errors for $U$ and $V$. The error for $P$ also was essentially level, but on the order of 1 (instead of 0.01) so I excluded it from this graph. This occurred even though I did subtract off the mean of my numerical solution for $P$.
+
+While error on the order of 0.01 is somewhat small, the fact that it is level, not decreasing, as a function of $n$ is unexpected.
+
+\begin{center}
+\includegraphics{error_plot.pdf}
+\end{center}
 
 
 \end{document}
