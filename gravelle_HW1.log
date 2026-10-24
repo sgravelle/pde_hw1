@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.9.4)  24 OCT 2026 13:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.9.4)  24 OCT 2026 14:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -258,7 +258,7 @@ Package pdftex.def Info: sol_plot.pdf  used on input line 26.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./sol_plot.pdf>]
-<error_plot.pdf, id=36, 451.6875pt x 326.22112pt>
+<error_plot.pdf, id=33, 451.6875pt x 326.22112pt>
 File: error_plot.pdf Graphic file (type pdf)
 <use error_plot.pdf>
 Package pdftex.def Info: error_plot.pdf  used on input line 35.
@@ -284,9 +284,9 @@ e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on gravelle_HW1.pdf (2 pages, 243902 bytes).
+Output written on gravelle_HW1.pdf (2 pages, 264717 bytes).
 PDF statistics:
- 113 PDF objects out of 1000 (max. 8388607)
+ 109 PDF objects out of 1000 (max. 8388607)
  39 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
