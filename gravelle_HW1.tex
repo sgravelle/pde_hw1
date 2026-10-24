@@ -23,7 +23,7 @@ Numerical PDEs Homework \#1\\
 My solution to the Stokes equations in 2 dimensions, with the given boundary conditions, is plotted below. I used $n=100=Nx=Ny$ gridpoints in both $x$ and $y$ directions.  Arrows indicate direction of the fluid's flow and color indicates the magnitude of the solution vector; that is, the speed of the fluid.
 
 \begin{center}
-\includegraphics{sol_plot.pdf}
+\includegraphics[width=\textwidth]{sol_plot.pdf}
 \end{center}
 
 \newpage
@@ -35,9 +35,20 @@ Plotting the relative error of numerical solutions on an $n\times n$ grid gives 
 \includegraphics{error_plot.pdf}
 \end{center}
 
+\newpage
+\noindent \textbf{Problem 2: Error Analysis, continued}
+
+\noindent\emph{Identifying source of error in }$P$
+
+Since the error in $P$ identified in the figure above is both large and constant in $P$, this suggests it may come from a constant difference between the analytical and numerical solutions for $P$. However, this is not the case, because I subtracted the mean value of $P$ from my numerical solution. I also verified this by plotting the absolute error of $P$ as a function of $(x,y)$, holding $n=100$ fixed. This plot is shown below; here, I measured error simply by taking the absolute value of the difference between the numerical and analytical solutions of $P$. This plot shows that the error is not at all constant in space, so the source of the high error in my solution to $P$ comes from something other than a constant difference.
+
+\begin{center}
+\includegraphics{spatial_error.pdf}
+\end{center}
+
 \bigskip
 
-\emph{AI disclosure statement:} Both plots were made with LLM assistance. All mathematical work and all code to produce the numerical solutions and error calculations are my own, without LLM.
+\emph{AI disclosure statement:} All plots were made with LLM assistance. All mathematical work and all code to produce the numerical solutions and error calculations are my own, without LLM.
 
 
 \end{document}
