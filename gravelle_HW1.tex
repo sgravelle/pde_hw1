@@ -29,21 +29,10 @@ My solution to the Stokes equations in 2 dimensions, with the given boundary con
 \newpage
 \noindent \textbf{Problem 2: Error Analysis}
 
-Plotting the relative error of numerical solutions on an $n\times n$ grid gives the following errors for $U$, $V$, and $P$. The slope of the errors for $U$ and $V$ shows that their errors decrease proportionally to $1/n^2$. The error for $P$, in contrast, is much higher and constant in $n$, which is unexpected.
+Plotting the relative error of numerical solutions on an $n\times n$ grid gives the following errors for $U$, $V$, and $P$. The slopes of each show that their errors decrease proportionally to $1/n^2$ (the second order baseline plotted as a black dashed line).
 
 \begin{center}
-\includegraphics{error_plot.pdf}
-\end{center}
-
-\newpage
-\noindent \textbf{Problem 2: Error Analysis, continued}
-
-\noindent\emph{Identifying source of error in }$P$
-
-Since the error in $P$ identified in the figure above is both large and constant in $P$, this suggests it may come from a constant difference between the analytical and numerical solutions for $P$. However, this is not the case, because I subtracted the mean value of $P$ from my numerical solution. I also verified this by plotting the absolute error of $P$ as a function of $(x,y)$, holding $n=100$ fixed. This plot is shown below; here, I measured error simply by taking the absolute value of the difference between the numerical and analytical solutions of $P$. This plot shows that the error is not at all constant in space, so the source of the high error in my solution to $P$ comes from something other than a constant difference.
-
-\begin{center}
-\includegraphics{spatial_error.pdf}
+\includegraphics[width=\textwidth]{error_plot.pdf}
 \end{center}
 
 \bigskip
